@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.chatback_image{
+background-image: url(../../public/peakpx.jpg);
+opacity: 70%;
+
+}
+/* .profile-image{
+     background-image: url(../../public/profileimg.jpg);
+    
+}
+
+.chatbot-image{
+    background-image: url(../../public/chatbotimg.jpg);
+  
+} */
