@@ -53,7 +53,7 @@ const Homepage = () => {
       const chatCompletion = await openai.chat.completions.create({
         messages: [...chat, userMessage],
         model: "gpt-3.5-turbo-1106",
-        max_tokens: 50,
+        max_tokens:1000,
       });
 
       const assistantMessage = {
